@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #090d18;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background: #111a2b;
+    width: 100%;
+    max-width: 420px;
+    padding: 30px 25px;
+    border: 1px solid #273c5a;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 25px #32e6dc20;
+}
+
+.tag {
+    color: #32e6dc;
+    font-size: 11px;
+    letter-spacing: 2px;
+    margin-bottom: 18px;
+}
+
+h1 {
+    color: white;
+    font-size: 27px;
+}
+
+.subtitle {
+    color: #8997ae;
+    margin: 12px 0 25px;
+    font-size: 14px;
+}
+
+.counter-box {
+    background: #18243a;
+    border: 1px solid #30435d;
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 22px;
+}
+
+.counter-box p {
+    color: #8997ae;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+#count {
+    color: #32e6dc;
+    font-size: 65px;
+    margin: 12px 0;
+}
+
+#status {
+    color: #32e6dc;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+.buttons {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+button {
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    filter: brightness(1.2);
+}
+
+.plus {
+    background: #087b5b;
+    flex: 1;
+}
+
+.minus {
+    background: #b92d4c;
+    flex: 1;
+}
+
+#addFive {
+    width: 100%;
+    background: #174d50;
+    color: #32e6dc;
+    border: 1px solid #32e6dc;
+    margin-bottom: 10px;
+}
+
+#reset {
+    width: 100%;
+    background: #27344b;
+}
+
+.footer {
+    color: #718096;
+    font-size: 10px;
+    margin-top: 23px;
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 23px;
+    }
+
+    .container {
+        padding: 25px 18px;
+    }
+
+    #count {
+        font-size: 55px;
+    }
+}
